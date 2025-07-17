@@ -1,0 +1,67 @@
+{
+  "topic": "5 Chunking Strategies For RAG",
+  "tweets": [
+    {
+      "content": "5 Chunking Strategies For RAG",
+      "is_hook": true,
+      "media_urls": []
+    },
+    {
+      "content": "Chunking is crucial for adapting large documents to RAG systems. But how do you pick the right chunking strategy for maximum retrieval accuracy? \ud83e\uddf5",
+      "is_hook": false,
+      "media_urls": [
+        "https://substackcdn.com/image/fetch/$s_!DpHM!,w_1456,c_limit,f_auto,q_auto:good,fl_lossy/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6878b8fa-5e74-45a1-9a89-5aab92889126_2366x990.gif"
+      ]
+    },
+    {
+      "content": "1\ufe0f\u20e3 Fixed-size Chunking:\n\ud83d\udccf Splits text into equal segments (tokens, words, or characters).\n\ud83c\udff7\ufe0f Add overlaps to prevent semantic disruption.\n\u26a0\ufe0f Simple but risks breaking cohesive ideas.\n\nLearn more\ud83d\udc47",
+      "is_hook": false,
+      "media_urls": [
+        "https://substackcdn.com/image/fetch/$s_!RG5y!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F98c422a0-f0e2-457c-a256-4476a56a601f_943x232.png"
+      ]
+    },
+    {
+      "content": "2\ufe0f\u20e3 Semantic Chunking:\n\ud83e\udde0 Groups coherent ideas by checking embedding similarity of subsequent sentences.\n\ud83d\udd27 Fine-tune thresholds for better cohesion.\n\u26a0\ufe0f Computationally expensive but preserves meaning.\n\nDetails \ud83d\udc47",
+      "is_hook": false,
+      "media_urls": [
+        "https://substackcdn.com/image/fetch/$s_!sTc2!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F74037e11-362d-4ea2-8ee2-ee85ab013523_963x231.png"
+      ]
+    },
+    {
+      "content": "3\ufe0f\u20e3 Recursive Chunking:\n\u267b\ufe0f Start large, break down to size in logical steps (section \u2192 para \u2192 token limits).\n\ud83d\uddc4\ufe0f Adapts to nesting & structure of lengthy docs.\n\u2696\ufe0f Best for long-form documents.\n\nMore context \ud83d\udc47",
+      "is_hook": false,
+      "media_urls": [
+        "https://substackcdn.com/image/fetch/$s_!5-DV!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb0e40cc1-996f-48f4-9306-781b112536e4_984x428.png"
+      ]
+    },
+    {
+      "content": "4\ufe0f\u20e3 Document Structure Chunking:\n\ud83d\udcc2 Capitalize on logical sections (headings, paragraphs) to define boundaries.\n\ud83c\udf1f Works great when structure exists.\n\u26a0\ufe0f Chunk sizes can vary considerably.\n\nExplore further \ud83d\udc47",
+      "is_hook": false,
+      "media_urls": [
+        "https://substackcdn.com/image/fetch/$s_!9CjT!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F40bdaf3b-601d-4357-bc7f-89b47f812097_1025x663.png"
+      ]
+    },
+    {
+      "content": "5\ufe0f\u20e3 LLM-based Chunking:\n\ud83e\udd16 An LLM identifies semantic breaks for meaningful splits.\n\u2705 High precision, accommodates diverse content.\n\u26a0\ufe0f Computational costs are steep\u2014mind your resource consumption.\n\nGIF\ud83d\udc47",
+      "is_hook": false,
+      "media_urls": [
+        "https://substackcdn.com/image/fetch/$s_!jVmL!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4d1b6d60-8956-4030-8525-d899ee61a9d5_1140x198.gif"
+      ]
+    },
+    {
+      "content": "Key Takeaways:\n- Fixed-size chunking risks semantic loss but is simple.\n- Semantic chunking is context-rich but resource-heavy.\n- Recursive strategies blend size+structure.\n- Leverage document + LLM-based for semantic precision.",
+      "is_hook": false,
+      "media_urls": []
+    },
+    {
+      "content": "Hybrid strategies (e.g., Recursive + Semantic) help tailor to scale, accuracy, and constraints\u2014adapting to both your model's limits and retrieval goals.\n\nThink outside strict chunking rules! \ud83d\ude80",
+      "is_hook": false,
+      "media_urls": []
+    },
+    {
+      "content": "That's a wrap on chunking strategies for RAG systems! \ud83d\ude80\n\nFollow me @_avichawla for more LLM deep dives and tips on engineering smarter info retrieval! \ud83d\udcda",
+      "is_hook": false,
+      "media_urls": []
+    }
+  ]
+}
