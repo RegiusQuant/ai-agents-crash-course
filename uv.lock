@@ -17,6 +17,7 @@ dependencies = [
     { name = "firecrawl-py" },
     { name = "ipywidgets" },
     { name = "jupyterlab" },
+    { name = "litellm" },
 ]
 
 [package.metadata]
@@ -26,6 +27,7 @@ requires-dist = [
     { name = "firecrawl-py", specifier = ">=2.16.1" },
     { name = "ipywidgets", specifier = ">=8.1.7" },
     { name = "jupyterlab", specifier = ">=4.4.4" },
+    { name = "litellm", specifier = ">=1.72.6" },
 ]
 
 [[package]]
