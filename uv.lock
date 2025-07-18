@@ -21,7 +21,7 @@ dependencies = [
 
 [package.metadata]
 requires-dist = [
-    { name = "crewai", specifier = ">=0.141.0" },
+    { name = "crewai", specifier = "==0.148" },
     { name = "crewai-tools", specifier = ">=0.51.1" },
     { name = "firecrawl-py", specifier = ">=2.16.1" },
     { name = "ipywidgets", specifier = ">=8.1.7" },
@@ -589,7 +589,7 @@ wheels = [
 
 [[package]]
 name = "crewai"
-version = "0.141.0"
+version = "0.148.0"
 source = { registry = "https://pypi.tuna.tsinghua.edu.cn/simple" }
 dependencies = [
     { name = "appdirs" },
@@ -618,9 +618,9 @@ dependencies = [
     { name = "tomli-w" },
     { name = "uv" },
 ]
-sdist = { url = "https://pypi.tuna.tsinghua.edu.cn/packages/10/cd/3fd9e285a7c88ab609fd1bc5bba2373c3555be5172f360a2430bc8163556/crewai-0.141.0.tar.gz", hash = "sha256:b3d658b64df64ffdae58645670a912778b845c292832dac5e49a461cc4d9e39a", size = 6192529, upload-time = "2025-07-09T17:36:56.365Z" }
+sdist = { url = "https://pypi.tuna.tsinghua.edu.cn/packages/db/46/3247312d55b1d5887d7ce6d0a3cc39c6dc118452c1a1fb9eaaa9d121a5b4/crewai-0.148.0.tar.gz", hash = "sha256:a713477cebc98a641c8dfda0f6415b6449143848fbdf91fa6aa0f90a0e726a49", size = 6315505, upload-time = "2025-07-16T19:36:27.26Z" }
 wheels = [
-    { url = "https://pypi.tuna.tsinghua.edu.cn/packages/25/e0/82758aa7ff07b8e79a512ddd9839a4171cc0999b4a9af1e7fbc17e27039e/crewai-0.141.0-py3-none-any.whl", hash = "sha256:1b8c7f49a8d9e469bfe84a902de965856b63a3e2b649c54ea379ee28b8461092", size = 337150, upload-time = "2025-07-09T17:36:54.01Z" },
+    { url = "https://pypi.tuna.tsinghua.edu.cn/packages/bb/6f/8d0af8154b9b97d0207f76cd8607721536afd22fabef9702ee664ff27923/crewai-0.148.0-py3-none-any.whl", hash = "sha256:6865355d96493db63f29064eefe6397d27be2a6729cf3957aa6a90d7190ee50f", size = 365343, upload-time = "2025-07-16T19:36:24.553Z" },
 ]
 
 [[package]]
